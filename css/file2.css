@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+/* Config */
+* {
+  /* font-family: 'Roboto', sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+main {
+}
+/* ./Config */
+
+/* Utilities */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p-1rem {
+  padding: 1rem;
+}
+
+.px-1rem {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.pt-1rem {
+  padding-top: 1rem;
+}
+
+.pt-3rem {
+  padding-top: 3rem;
+}
+
+.pb-3rem {
+  padding-bottom: 3rem;
+}
+
+.py-1rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2rem {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mx-1rem {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.mt-1rem {
+  margin-top: 1rem;
+}
+
+.mt-3rem {
+  margin-top: 3rem;
+}
+
+.mb-1px {
+  margin-bottom: 1px;
+}
+
+.mb-1rem {
+  margin-bottom: 1rem;
+}
+
+.max-w-150px {
+  max-width: 150px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-blue {
+  color: dodgerblue;
+}
+
+.bg-white {
+  background-color: white;
+}
+/* ./Utilities */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+header img {
+  width: 100%;
+}
+header li {
+  list-style: none;
+}
+
+main {
+  background-image: url('../img/sample-pattern.png');
+  min-height: 100vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: black;
+  color: white;
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/* ./Small */
+
+/* Medium */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .p-md-0 {
+    padding: 0;
+  }
+
+  .ml-md-auto {
+    margin-left: auto;
+  }
+
+  .flex-md-row {
+    flex-direction: row;
+  }
+
+  .max-md-75 {
+    max-width: 75%;
+  }
+}
+/* ./Medium */
+
+/* Large */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+/* ./Large */
+
+/* Extra Large */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* ./Extra Large */
